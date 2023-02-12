@@ -60,6 +60,8 @@ int main()
     cin >> n >> k;
     cin >> s;
     map<char, ll> mp;
+//     this code is a bit complicated so check this accordingly 
+    
 
     for (i = 0, j = 1; i <= s1.size(); i++, j++)
     {
