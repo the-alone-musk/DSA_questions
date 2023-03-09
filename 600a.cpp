@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
-#include <vector>
-// conmtinuing
+#include <vector>
 
 bool isInt(std::string x){
 
