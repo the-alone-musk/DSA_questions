@@ -1,2 +1,1 @@
-# DSA_questions
-Here I store all my solutions and the attempted solution on Codeforces.
+<h1> This repository serves as an archive for attempted Data Structures and Algorithms (DSA) questions from various online platforms. It aims to provide a consolidated collection of solutions and code implementations for DSA problems, helping individuals enhance their problem-solving skills.</h1>
