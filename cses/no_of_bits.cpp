@@ -1,24 +1,6 @@
-
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
-
-// void count(long long int n)
-// {
-//   long long int count=0; 
-
-//    for ( long long int i = 1 ; i <= n ; i++){
-//     count += __builtin_popcount(i);
-//    }
-//    cout<<count;
-// }
-// int main()
-// {
-//     long long int n;
-//     cin >> n;
-//     count(n);
-//     return 0;
-// }
 
 int countSetBits(long long int n)
 {
@@ -30,20 +12,19 @@ int countSetBits(long long int n)
     return count;
 }
 
-void count(long long int n)
+int count(long long int n)
 {
-    long long int count = 0;
-
+    int totalCount = 0;
     for (long long int i = 1; i <= n; i++) {
-        count += countSetBits(i);
+        totalCount += countSetBits(i);
     }
-    cout << count;
+    return totalCount;
 }
 
 int main()
 {
     long long int n;
     cin >> n;
-    count(n);
+    cout << count(n);
     return 0;
 }
