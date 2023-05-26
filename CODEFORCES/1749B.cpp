@@ -1,32 +1,33 @@
 
 #include <bits/stdc++.h> 
+using namespace std;
 
 using i64 = long long;
 
 void solve() {
     int n;
-    std::cin >> n;
+    cin >> n;
     
-    std::vector<int> a(n), b(n);
+    vector<int> a(n), b(n);
     for (int i = 0; i < n; i++) {
-        std::cin >> a[i];
+        cin >> a[i];
     }
     for (int i = 0; i < n; i++) {
-        std::cin >> b[i];
+        cin >> b[i];
     }
     
-    auto ans = std::accumulate(a.begin(), a.end(), 0LL) + std::accumulate(b.begin(), b.end(), 0LL);
-    ans -= *std::max_element(b.begin(), b.end());
+    auto ans = (a.begin(), a.end(), 0LL) + (b.begin(), b.end(), 0LL);
+    ans -= *max_element(b.begin(), b.end());
     
-    std::cout << ans << "\n";
+    cout << ans << "\n";
 }
 
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     
     int t;
-    std::cin >> t;
+    cin >> t;
     
     while (t--) {
         solve();
