@@ -8,6 +8,7 @@ void weirdAlgo(long long int n)
     cout << n << " ";
     while (n != 1)
     {
+        // check this out
         if (n % 2 == 0)
         {
             n = n / 2;
