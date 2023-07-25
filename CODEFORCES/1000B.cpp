@@ -61,7 +61,7 @@ sim dor(rge<c> d)
 }
 ;
 #define dbg(...) " [" << #__VA_ARGS__ ": " << (__VA_ARGS__) << "] "
-////////////////////////
+
 
 template <typename T>
 T set_bit(T N, T pos) { return N = N | (1 << pos); }
